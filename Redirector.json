@@ -1,0 +1,58 @@
+{
+    "createdBy": "Redirector v3.5.3",
+    "createdAt": "2021-11-19T10:17:30.264Z",
+    "redirects": [
+        {
+            "description": "youtube redirect",
+            "exampleUrl": "https://www.youtube.com/watch?v=eZXo2kWCfWM",
+            "exampleResult": "https://youtube.076.ne.jp/watch?v=eZXo2kWCfWM",
+            "error": null,
+            "includePattern": "https://www.youtube.com/watch?v=*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://youtube.076.ne.jp/watch?v=$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame",
+                "history"
+            ]
+        },
+        {
+            "description": "wikipedia redirect",
+            "exampleUrl": "https://en.wikipedia.org/wiki/Boot_sector",
+            "exampleResult": "https://wikiless.org/wiki/Boot_sector",
+            "error": null,
+            "includePattern": "https://en.wikipedia.org/wiki/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://wikiless.org/wiki/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": true,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "twitter redirect",
+            "exampleUrl": "https://twitter.com/yourvoyeurporn",
+            "exampleResult": "https://nitter.moomoo.me/yourvoyeurporn",
+            "error": null,
+            "includePattern": "https://twitter.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://nitter.moomoo.me/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": true,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
+}

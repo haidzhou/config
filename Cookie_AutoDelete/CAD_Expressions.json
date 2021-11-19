@@ -1,0 +1,136 @@
+{
+  "default": [
+    {
+      "expression": "*.baidu.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cleanSiteData": [],
+      "cookieNames": [],
+      "id": "p-if1RDk4"
+    },
+    {
+      "expression": "*.okteto.net",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cleanSiteData": [],
+      "cookieNames": [],
+      "id": "Zi6pYHf5Ij"
+    },
+    {
+      "expression": "aliyundrive.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cleanSiteData": [],
+      "cookieNames": [],
+      "id": "NI0eGBpcNV"
+    },
+    {
+      "expression": "bilibili.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cleanSiteData": [
+        "Cache",
+        "IndexedDB",
+        "LocalStorage",
+        "PluginData",
+        "ServiceWorkers"
+      ],
+      "cookieNames": [],
+      "id": "XPG17x6CCO"
+    },
+    {
+      "expression": "epicgames.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cleanSiteData": [],
+      "cookieNames": [],
+      "id": "QPmR5-7rI9"
+    },
+    {
+      "expression": "github.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cleanSiteData": [],
+      "cookieNames": [],
+      "id": "bAPw5DID2d"
+    },
+    {
+      "expression": "microsoft.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cleanSiteData": [],
+      "cookieNames": [],
+      "id": "4hIj4xZILm"
+    },
+    {
+      "expression": "searx.fmac.xyz",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cleanSiteData": [],
+      "cookieNames": [],
+      "id": "35AGd_3-UA"
+    },
+    {
+      "expression": "spotify.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cleanSiteData": [
+        "Cache"
+      ],
+      "cookieNames": [],
+      "id": "aP8DTbxF0c"
+    },
+    {
+      "expression": "store.steampowered.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cleanSiteData": [
+        "Cache"
+      ],
+      "cookieNames": [],
+      "id": "CrgUIdQu8O"
+    },
+    {
+      "expression": "vid.puffyan.us",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cleanAllCookies": true,
+      "cleanSiteData": [
+        "Cache",
+        "IndexedDB",
+        "LocalStorage",
+        "ServiceWorkers",
+        "PluginData"
+      ],
+      "cookieNames": [
+        "PREFS"
+      ],
+      "id": "ytxwcBiO7G"
+    },
+    {
+      "expression": "youtube.076.ne.jp",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cleanSiteData": [],
+      "cookieNames": [],
+      "id": "ykzx3g0xaq"
+    },
+    {
+      "expression": "youtube.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cleanSiteData": [
+        "Cache",
+        "IndexedDB",
+        "LocalStorage",
+        "PluginData",
+        "ServiceWorkers"
+      ],
+      "cookieNames": [
+        "VISITOR_INFO1_LIVE"
+      ],
+      "id": "LeyaVCh66",
+      "cleanAllCookies": false
+    }
+  ]
+}
